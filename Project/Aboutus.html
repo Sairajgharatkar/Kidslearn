@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">KidsLearn</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Store.html">Store</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Aboutus.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="btn btn-primary" href="Login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="hero03-section">
+            <div class="hero03-text">
+                <h1 class="fw-bold">Growing Minds, Bright Futures</h1>
+                <p class="lead">Empowering children with interactive learning experiences that spark curiosity and foster a lifelong love for learning.</p>
+            </div>
+            <img src="../Image/Kids learning .jpg" class="img-fluid rounded hero03-image" alt="Kids Learning with Tablet">
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            setTimeout(function() {
+                $('.hero03-text').addClass('fade-in');
+                $('.hero03-image').addClass('fade-in');
+            }, 500);
+        });
+    </script>
+
+    
+    <div class="container text-center mt-5">
+        <h2 class="fade-in">Our Story</h2>
+        <p class="fade-in">Founded in 2020, KidsLearn has been at the forefront of transforming early childhood education through innovative learning methods and technology. Our journey began with a simple mission: to make learning an adventure that every child looks forward to.</p>
+    </div>
+    
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+            <div class="col-md-4 fade-in">
+                <div class="card p-4 text-center">
+                    <div class="icon text-danger fs-1">❤️</div>
+                    <h4 class="mt-3">Our Mission</h4>
+                    <p>To create engaging learning experiences that nurture curiosity, creativity, and confidence in every child.</p>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card p-4 text-center">
+                    <div class="icon text-primary fs-1">👁️</div>
+                    <h4 class="mt-3">Our Vision</h4>
+                    <p>To be the leading platform where technology meets education to create the most effective learning environment for children.</p>
+                </div>
+            </div>
+            <div class="col-md-4 fade-in">
+                <div class="card p-4 text-center">
+                    <div class="icon text-warning fs-1">⭐</div>
+                    <h4 class="mt-3">Our Values</h4>
+                    <p>Innovation, inclusivity, and child-centered learning guide everything we do to ensure the best educational outcomes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let elements = document.querySelectorAll(".fade-in");
+            elements.forEach((el) => {
+                setTimeout(() => {
+                    el.classList.add("show");
+                }, 200);
+            });
+        });
+    </script>
+
+<div class="container text-center mt-5">
+    <h2 class="fade-in">Our Educational Growth Path</h2>
+</div>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-3 fade-in">
+            <div class="card p-4 text-center">
+                <div class="icon text-danger fs-1">1</div>
+                <h4 class="mt-3">Early Learning</h4>
+                <p>Foundation skills through play-based learning and interactive activities.</p>
+            </div>
+        </div>
+        <div class="col-md-3 fade-in">
+            <div class="card p-4 text-center">
+                <div class="icon text-primary fs-1">2</div>
+                <h4 class="mt-3">Skill Development</h4>
+                <p>Building core competencies through structured learning programs.</p>
+            </div>
+        </div>
+        <div class="col-md-3 fade-in">
+            <div class="card p-4 text-center">
+                <div class="icon text-warning fs-1">3</div>
+                <h4 class="mt-3">Creative Expression</h4>
+                <p>Encouraging imagination and self-expression through arts and activities.</p>
+            </div>
+        </div>
+        <div class="col-md-3 fade-in">
+            <div class="card p-4 text-center">
+                <div class="icon text-success fs-1">4</div>
+                <h4 class="mt-3">Future Ready</h4>
+                <p>Preparing children for future challenges with advanced learning tools.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container text-center mt-5">
+    <h2 class="fade-in">Why Choose KidsLearn?</h2>
+</div>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 fade-in">
+            <div class="text-center">
+                <div class="icon text-danger fs-1">👥</div>
+                <h4 class="mt-3">Expert Teachers</h4>
+                <p>Qualified educators passionate about child development.</p>
+            </div>
+        </div>
+        <div class="col-md-4 fade-in">
+            <div class="text-center">
+                <div class="icon text-primary fs-1">📖</div>
+                <h4 class="mt-3">Interactive Learning</h4>
+                <p>Engaging content that makes learning fun and effective.</p>
+            </div>
+        </div>
+        <div class="col-md-4 fade-in">
+            <div class="text-center">
+                <div class="icon text-warning fs-1">🛡️</div>
+                <h4 class="mt-3">Safe Environment</h4>
+                <p>Secure platform with parental controls and monitoring.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let elements = document.querySelectorAll(".fade-in");
+        elements.forEach((el) => {
+            setTimeout(() => {
+                el.classList.add("show");
+            }, 200);
+        });
+    });
+</script>
+
+<div class="container text-center mt-5">
+    <h2 class="fade-in">Get in Touch</h2>
+</div>
+
+<div class="container mt-4 fade-in">
+    <form class="contact-form">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-custom">Send Message</button>
+    </form>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        let elements = document.querySelectorAll(".fade-in");
+        elements.forEach((el) => {
+            setTimeout(() => {
+                el.classList.add("show");
+            }, 200);
+        });
+    });
+</script>
+    
+
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2025 KidsLearn. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
